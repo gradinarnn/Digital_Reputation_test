@@ -1,0 +1,11 @@
+.idea/
+.env
+*.mp4
+*.log
+*.pot
+*.pyc
+*.xlsx
+*.sqlite3
+*.xml
+questionnaire/testing/migrations
+.vscode/
