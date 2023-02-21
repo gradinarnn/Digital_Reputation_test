@@ -25,7 +25,7 @@ python .\questionnaire\manage.py migrate
 python .\questionnaire\manage.py createsuperuser
 ```
 
-### 7. Запустит бэк:
+### 7. Запустить бэк:
 ```
 python .\questionnaire\manage.py runserver <host:port>
 ```
@@ -35,7 +35,7 @@ python .\questionnaire\manage.py runserver <host:port>
 cd .\questionnaire\questionnaire_frontend\
 ```
 
-### 9. Устанавливка пакетов:
+### 9. Установка пакетов js:
 ```
 npm install
 ```
