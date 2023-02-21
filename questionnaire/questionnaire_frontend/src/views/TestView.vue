@@ -1,17 +1,16 @@
 <template>
-    <div v-if="this.result_percent" >
-    Итоги теста:
-    Правильных ответов {{ current_questions_count }} из {{ questions_count }}, что соответсвует {{ result_percent }}%
-    <a :href="'/'">На главную</a>
-    </div>
-    <div v-else>
-        <QuestionComponent 
-            :question="question"
-            @click_confirm="click_confirm_question"
-            >
-            
-        </QuestionComponent>
-    </div>
+  <div class="username">Вы зашли как {{ this.username }}</div>
+  <div v-if="this.result_percent != null" >
+  Итоги теста:
+  Правильных ответов {{ current_questions_count }} из {{ questions_count }}, что соответсвует {{ result_percent }}%
+  <a :href="'/'">На главную</a>
+  </div>
+  <div v-else>
+      <QuestionComponent 
+          :question="question"
+          @click_confirm="click_confirm_question">
+      </QuestionComponent>
+  </div>
 
   
    

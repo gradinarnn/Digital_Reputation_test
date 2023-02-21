@@ -82,5 +82,3 @@ import gql from 'graphql-tag'
   }
 </script>
   
-<style scoped>
-</style>

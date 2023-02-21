@@ -3,7 +3,7 @@
         <h3>{{ question.title }}</h3>
 
         <div v-for="answer in this.question.answers" :key="answer.id">
-            <input type="checkbox"  :value="answer" v-model="checked_answers" />
+            <input class="check-box" type="checkbox"  :value="answer" v-model="checked_answers" />
             <label>{{answer.text}}</label>
         </div>
 

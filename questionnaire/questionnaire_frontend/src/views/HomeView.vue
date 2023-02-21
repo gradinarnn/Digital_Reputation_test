@@ -1,10 +1,19 @@
 <template>
-    <p>Вы зашли как {{ this.username }}</p>
+  <div class="username">Вы зашли как {{ this.username }}</div>
+        
+  <div>
     <p>Доступные тесты:</p>
     <div v-for="test in all_tests" :key="test.id">
       <a :href="'/test/'+test.id">{{ test.title }}</a>
-
     </div>
+  </div>
+ 
+
+
+
+
+    
+    
   
    
   </template>
@@ -65,7 +74,3 @@
     }
   }
 </script >
-
-<style scoped>
-
-</style>
